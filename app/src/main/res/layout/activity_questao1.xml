@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".Questao1Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Jogador: "
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/textviewNome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Anônimo" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Quanto tempo demorou para que GTA 5 seja desenvolvido?"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <RadioButton
+            android:id="@+id/radioButton2anos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2 anos" />
+
+        <RadioButton
+            android:id="@+id/radioButton3meses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3 meses" />
+
+        <RadioButton
+            android:id="@+id/radioButton5anos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5 anos" />
+
+        <RadioButton
+            android:id="@+id/radioButton10anos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10 anos" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonResponder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="24dp"
+        android:background="@android:color/holo_orange_dark"
+        android:text="Responder" />
+
+</LinearLayout>
